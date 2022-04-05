@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: #000000;
+}
+
+#conteudo {
+  width: 810px;
+  background-color: #000000;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#conteudoinicio {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+#topo {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#rodape {
+  width: 100%;
+  margin-left: center;
+  margin-right: center;
+}
+
+body {
+  margin: 0px;
+  background-image: url(/imagens/fundo_campo.jpg);
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Candara;
+  color: #f9cf1d;
+  text-align: center;
+}
+
+h3 {
+  font-family: Candara;
+  color: #f9cf1d;
+}
+
+p {
+  font-family: Verdana;
+  text-align: justify;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #e4f2e4;
+}
+
+a:link {
+  color: #f9cf1d;
+  font-weight: bold;
+  font-family: Candara;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+a:visited {
+  color: #fce88f;
+  font-weight: bold;
+  font-family: Candara;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ffff00;
+  font-weight: bold;
+  font-family: Candara;
+  text-decoration: underline;
+  font-size: 18px;
+}
